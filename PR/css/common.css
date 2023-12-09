@@ -1,4 +1,57 @@
+@import "header.css";
+@import "footer.css";
 
+
+
+:root {
+    /* Rojo básico (texto, botón menú activo, boton hover, borde botones, etc): #C43721; */
+    --basic-red: #C43721;
+
+    /* Segundo tono color rojo (hover botones),  : #ef6d58  */
+    --special-red: #ef6d58;
+
+    /* Tercer tono rojo (lateral tabla); #ffd6d1 */
+    --tertiary-red: #ffd6d1;
+
+    /* Rojo del fondo del bloque de texto de web-design : #fff6f5 */
+    --background-red: #fff6f5;
+
+    /* Color fondo texto cabecera: rgb(103, 103, 103) Aplicar la transparencia necesaria */
+    --backgruond-cabecera: rgb(103, 103, 103);
+
+    /* Color hover imágenes: rgb(132, 131, 131) Aplicar la transparencia necesaria */
+    --images-hover: rgb(132, 131, 131);
+
+    /* Fondo gris claro (fondos, fondo tabla, color del menú redes sociales, etc): #e4e4e4 */
+    --background-grey: #e4e4e4;
+
+    /* Fondo pie de página: #323639 */
+    --background-footer: #323639;
+
+    /* Texto pie de página: #C1C2C4 */
+    --text-footer: #C1C2C4;
+
+    /* Color de los input del pie de página: #829DA2 */
+    --input-footer: #829DA2;
+
+    /* Color botones explore more de web-design: #474747 */
+    --button-explore: #474747;
+
+    /* Verde hover botón enviar comentario: #189232 */
+    --hover-button-comment: #189232;
+
+    /* Rojo hover botón reset comentario: #ff0000 */
+    --hover-button-red-reset: #ff0000;
+
+    /* Colores hover botones redes sociales: 
+    ●	dribbler: #EA4C89;
+    ●	facebook: #3B5998;
+    ●	google-plus: #DB4A39; */
+    --button-dribbler: #EA4C89;
+    --button-facebook: #3B5998;
+    --button-google-plus: #DB4A39;
+
+}
 
 
 
@@ -46,66 +99,6 @@ body {
 }
 
 
-.header {
-    grid-area: hd;
-}
-
-
-.header-top {
-    width: calc(50% - 2px);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    display: inline-block;
-}
-
-.header-image {
-
-    /* flex declaration */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-
-    overflow: visible;
-
-    
-    /* images */
-    background-image: url(../images/inner_header.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
-
-}
-
-
-.anika-container {
-
-    /* flex declaration */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    /* styling */
-    border-radius: 10px;
-    background-color: #333;
-
-    
-
-
-    /* dimensions */
-    width: 30%;
-}
-
-.anika-container .anika-text {
-    padding: 15px 0;
-}
-.anika-container div {
-    padding: 5px 0;
-}
 
 
 
@@ -118,27 +111,8 @@ body {
 
 
 
-header ul {
-    list-style-type: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  header ul li {
-    float: left;
-  }
-  
-  header ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  header ul li a:hover {
-    background-color: #111;
-  }
+
+
+
+
+

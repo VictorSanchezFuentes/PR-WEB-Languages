@@ -1,0 +1,86 @@
+.header {
+    grid-area: hd;
+}
+
+
+.header-top {
+    width: calc(50% - 2px);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+}
+
+
+header ul {
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  header ul li {
+    float: left;
+  }
+  
+  header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover {
+    background-color: #111;
+  }
+
+.header-image {
+
+    /* flex declaration */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    overflow: visible;
+
+    
+    /* images */
+    background-image: url(../images/inner_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+
+}
+
+
+.anika-container {
+
+    /* flex declaration */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* styling */
+    border-radius: 10px;
+    background-color: #333;
+
+    
+
+
+    /* dimensions */
+    width: 30%;
+}
+
+.anika-container .anika-text {
+    padding: 15px 0;
+}
+.anika-container div {
+    padding: 5px 0;
+}

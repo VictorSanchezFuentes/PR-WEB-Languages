@@ -1,0 +1,32 @@
+footer {
+    grid-template-areas: "social newsletter images"
+    "footer-info footer-info footer-info footer-info";
+}
+
+
+.footer-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.day-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px;
+} 
+
+.day-images img {
+    width: 90px;
+    height: 90px;
+
+}
+
+
+.footer-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
