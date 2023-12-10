@@ -1,0 +1,47 @@
+
+
+#experiences h2 {
+    color: var(--basic-red);
+}
+
+
+
+.experiences-flex-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px 0;
+
+}
+
+.experiences-flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+
+}
+
+.experiences-flex-column div {
+    margin: 10px 0;
+}
+
+.experiences-flex-column a {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--basic-red);
+    color: var(--basic-red);
+    padding: 5px;
+
+}
+
+.experiences-flex-column figure {
+    margin: 0;
+}
+
+.experiences-flex-column figure img {
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 100%;
+}
+

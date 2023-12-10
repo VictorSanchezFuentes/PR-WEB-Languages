@@ -24,6 +24,10 @@ footer {
 
 }
 
+input {
+    display: block;
+}
+
 
 .footer-flex-column {
     display: flex;
