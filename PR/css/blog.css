@@ -1,0 +1,25 @@
+.float-blog {
+    margin: 20px;
+}
+
+.float-blog div {
+    margin: 0;
+}
+
+.float-blog div h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.float-blog .float-left {
+    border-radius: 5px;
+    margin-right: 15px;
+    max-width: 250px;
+}
+
+.float-blog .float-right {
+    border-radius: 5px;
+    margin-left: 15px;
+    max-width: 250px;
+}

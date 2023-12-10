@@ -4,7 +4,11 @@
     color: var(--basic-red);
 }
 
-
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 .experiences-flex-row {
     display: flex;
@@ -26,14 +30,7 @@
     margin: 10px 0;
 }
 
-.experiences-flex-column a {
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--basic-red);
-    color: var(--basic-red);
-    padding: 5px;
 
-}
 
 .experiences-flex-column figure {
     margin: 0;
