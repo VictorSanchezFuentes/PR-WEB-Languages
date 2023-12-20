@@ -22,12 +22,14 @@
                         <img src="images/favicon.ico" alt="web icon">
                     </span>
                     <span class="header-top">
-                        <ul>
-                            <li><a class="active" href="#home">Home</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="clearfix"><a href="#about">About</a></li>
-                        </ul>
+                        <nav>
+                            <ul>
+                                <li><a class="active" href="#home">Home</a></li>
+                                <li><a href="#news">News</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li class="clearfix"><a href="#about">About</a></li>
+                            </ul>
+                        </nav>
                     </span>
                 </div>
                 <div class="header-secondary">
@@ -46,20 +48,23 @@
                     <h4>More on my blog</h4>
 
                     <h5>The Whole Series</h5>
-
-                    <ul>
-                        <li><a href="#">Web Design: Shaping the Digital Experience</a></li>
-                        <li><a href="#">Web Design: All about</a></li>
-                        <li><a href="#">Wev Design: I'm the best</a></li>
-                    </ul>
-
+                    <nav>
+                        <ul>
+                            <li><a href="#">Web Design: Shaping the Digital Experience</a></li>
+                            <li><a href="#">Web Design: All about</a></li>
+                            <li><a href="#">Wev Design: I'm the best</a></li>
+                        </ul>
+                    </nav>
                     <h5>More resources</h5>
-                    <ul>
-                        <li><a href="#">A Simple Web Developer's Guide To Color</a></li>
-                        <li><a href="#">The Code Side Of Color</a></li>
-                        <li><a href="#">Color Meanings</a></li>
-                        <li><a href="#">Color Meanings & Symbolism</a></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#">A Simple Web Developer's Guide To Color</a></li>
+                            <li><a href="#">The Code Side Of Color</a></li>
+                            <li><a href="#">Color Meanings</a></li>
+                            <li><a href="#">Color Meanings & Symbolism</a></li>
+                        </ul>
+                    </nav>
+
 
                     <h5>Explore more on</h5>
                     <div class="explore-more-buttons">
@@ -138,10 +143,16 @@
 
                                 <label for="profile">Choose a car:</label>
                                 <select name="profile" id="comment-profile">
+                                    <optgroup label="Of a company">
                                     <option value="Human resources director">Human resources director</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="mercedes">Mercedes</option>
-                                    <option value="audi">Audi</option>
+                                    <option value="Design Are">Design Area</option>
+                                    <option value="Development area">Development area</option>
+                                    <option value="Of a company - Others" disabled>Others</option>
+                                    <optgroup label="Personal">
+                                    <option value="Designer">Designer</option>
+                                    <option value="Programmer">Programmer</option>
+                                    <option value="Personal - Others">Others</option>
+
                                 </select>
         
                                 <label for="your-image">Your image</label>
@@ -163,34 +174,34 @@
 
 
         <footer>
-            <div class="footer-flex-row">
-                <div class="flex-column-footer">
+            <div class="footer-flex-row" style="justify-content: center;">
+                <div class="flex-column-footer" style="flex: 1;">
                     <div class="footer-title">My social networks</div>
-                    <div>LOres ipsum</div>
-                    <div>lores ipsum</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit porttitor turpis, nullam congue convallis montes purus class tristique mollis velit, posuere libero netus sodales dictum habitasse cubilia odio.</p>
+                    <p>Lectus fermentum mattis eu blandit iaculis ullamcorper tristique senectus consequat montes a ridiculus elementum natoque habitasse, volutpat sem cum porta auctor vitae nisl magnis dignissim aenean nascetur nibh mauris... []</p>
                     <div>
 
                     </div>
 
                 </div>
 
-                <div class="flex-column-footer">
+                <div class="flex-column-footer" style="flex: 1;">
                     <div class="footer-title">Email newsletter</div>
                     <div>sign up for our email newsletter to find out all the news.</div>
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <button type="submit">SUBMIT</button>
                 </div>
-                <div class="flex-column-footer">
+                <div class="flex-column-footer" style="flex: 1;">
                     <div class="footer-title">Images of the day</div>
                     <div class="day-images">
                         <img src="images/footer/footer_1.jpg" alt="descriptive information of picture 1">
-                        <img src="images/footer/footer_3.jpg" alt="descriptive information of picture 2">
-                        <img src="images/footer/footer_4.jpg" alt="descriptive information of picture 3">
-                        <img src="images/footer/footer_5.jpg" alt="descriptive information of picture 4">
-                        <img src="images/footer/footer_6.jpg" alt="descriptive information of picture 5">
-                        <img src="images/footer/footer_7.jpg" alt="descriptive information of picture 6">
-                        <img src="images/footer/footer_2.jpg" alt="descriptive information of picture 7">
+                        <img src="images/footer/footer_2.jpg" alt="descriptive information of picture 2">
+                        <img src="images/footer/footer_3.jpg" alt="descriptive information of picture 3">
+                        <img src="images/footer/footer_4.jpg" alt="descriptive information of picture 4">
+                        <img src="images/footer/footer_5.jpg" alt="descriptive information of picture 5">
+                        <img src="images/footer/footer_6.jpg" alt="descriptive information of picture 6">
+                        <img src="images/footer/footer_7.jpg" alt="descriptive information of picture 7">
                         <img src="images/footer/footer_8.jpg" alt="descriptive information of picture 8">
                         <img src="images/footer/footer_9.jpg" alt="descriptive information of picture 9">
                     </div>
@@ -200,28 +211,37 @@
             <hr>
 
             <div class="footer-flex-row">
-                <div>
-                    <span></span>
-                    <div class="bold">Give us a call:</div>
-                    <div>+00 (123) 765 8765</div>
+                <div style="display: flex;">
+                    <i class="fa-solid fa-phone reverse" style="margin: 4px;"></i>
+                    <div>
+                        <div class="bold">Give us a call:</div>
+                        <div>+00 (123) 765 8765</div>
+                    </div>
                 </div>
 
-                <div>
-                    <span></span>
-                    <div class="bold">Send Us A Mail:</div>
-                    <div>myName@domain.com</div>
+                <div style="display: flex;">
+                    <i class="fa fa-envelope" style="margin: 4px;"></i>
+                    <div>
+                        <div class="bold">Send Us A Mail:</div>
+                        <div>myName@domain.com</div>
+                    </div>
                 </div>
 
-                <div>
-                    <span></span>
-                    <div class="bold">Monday - Saturday:</div>
-                    <div>14:00am - 18:00pm</div>
+                    
+                <div style="display: flex;">
+                    <i class="fa fa-clock" style="margin: 4px;"></i>
+                    <div>
+                        <div class="bold">Monday - Saturday:</div>
+                        <div>14:00am - 18:00pm</div>
+                    </div>
                 </div>
-
-                <div>
-                    <span></span>
-                    <div class="bold">Come Visit Us:</div>
-                    <div>Direction to my location</div>
+                    
+                <div style="display: flex;">
+                    <i class="fa fa-map-marker" style="margin: 4px;"></i>
+                    <div>
+                        <div class="bold">Come Visit Us:</div>
+                        <div>Direction to my location</div>
+                    </div>
                 </div>
             </div>
 
