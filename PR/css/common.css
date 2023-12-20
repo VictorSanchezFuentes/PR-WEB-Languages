@@ -1,4 +1,4 @@
-@import "header.css";
+@import "headers.css";
 @import "footer.css";
 
 
@@ -68,6 +68,13 @@
     color: var(--basic-red);
     padding: 5px;
 
+}
+
+.flex-center-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-dashed {

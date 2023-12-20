@@ -56,6 +56,25 @@ header ul {
 
 }
 
+.header-secondary {
+    
+
+  /* flex declaration */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  overflow: visible;
+
+  
+  /* images */
+  background-image: url(../images/inner_header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
+
 
 .anika-container {
 
