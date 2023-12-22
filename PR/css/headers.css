@@ -1,5 +1,6 @@
 .header {
     grid-area: hd;
+    
 }
 
 
@@ -44,15 +45,15 @@ header ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 400px;
 
     overflow: visible;
 
     
     /* images */
-    background-image: url(../images/inner_header.jpg);
+    background-image: url(../images/header.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100vw auto;
 
 }
 
@@ -64,7 +65,7 @@ header ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 400px;
 
   overflow: visible;
 
@@ -72,7 +73,7 @@ header ul {
   /* images */
   background-image: url(../images/inner_header.jpg);
   background-repeat: no-repeat;
-  background-size: 100vw auto;
+  background-size: cover;
 }
 
 

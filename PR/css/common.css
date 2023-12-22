@@ -112,9 +112,6 @@ html{
     "ft";
 }
 
-body {
-    margin: auto;
-}
 
 .clearfix::after {
     content: "";
@@ -130,6 +127,9 @@ body {
 
 .container {
     width: 1170px;
+    width: 80%;
+    margin:0 auto;
+    padding-top: 40px;
 }
 
 .weird {

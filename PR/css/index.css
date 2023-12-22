@@ -2,3 +2,7 @@
 @import "blog.css";
 @import "about-me.css";
 @import "my-team.css";
+
+#unlocking {
+    background-color: black;
+}

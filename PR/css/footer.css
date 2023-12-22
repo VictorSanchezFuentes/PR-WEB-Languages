@@ -1,6 +1,7 @@
 footer {
     grid-template-areas: "social newsletter images"
     "footer-info footer-info footer-info footer-info";
+    background-color: blue;
     margin-top: 50px;
 }
 
