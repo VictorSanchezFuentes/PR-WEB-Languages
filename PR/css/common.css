@@ -53,6 +53,8 @@
 
 }
 
+
+
 .float-left {
     float: left;
 }
@@ -92,7 +94,6 @@
     text-decoration: underline;
     color: var(--basic-red);
 }
-
 
 .more-button {
     color: var(--basic-red);
