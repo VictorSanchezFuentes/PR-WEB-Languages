@@ -4,8 +4,13 @@
 }
 
 
+.flex-header {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .header-top {
-    /* height: 100%; */
     margin: 0;
     padding: 0;
     border: none;
@@ -53,27 +58,15 @@ header ul {
     /* images */
     background-image: url(../images/header.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 
 }
 
-.header-secondary {
+.secondary-image-header {
     
 
-  /* flex declaration */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-
-  overflow: visible;
-
-  
   /* images */
   background-image: url(../images/inner_header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 
