@@ -2,8 +2,6 @@ footer {
     grid-template-areas: "social newsletter images"
     "footer-info footer-info footer-info footer-info";
     background-color: blue;
-    width: 1170px;
-    margin:0 auto;
     margin-top: 50px;
 }
 
@@ -12,6 +10,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin:0 auto;
+    width: 1170px;
 }
 
 
