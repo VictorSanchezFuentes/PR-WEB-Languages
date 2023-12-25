@@ -4,13 +4,9 @@
     
     border-right: 1px solid gray;
     padding: 10px;
-    width: 75%;
+    width: 78%;
 }
 
-.more-on-blog {
-
-    width: 20%;
-}
 
 /* form  {
     display: flex;
@@ -106,7 +102,7 @@ form button {
 .single-comment {
     background-color: grey;
     padding: 10px;
-    margin: 5px 0;
+    margin: 5px 10px 5px 0;
 }
 
 .single-comment img {
@@ -135,6 +131,21 @@ form button {
 
 /* Float right part */
 
+
+.more-on-blog {
+
+    width: 18%;
+}
+
+.more-on-blog ul {
+    padding: 0;
+
+}
+
+.more-on-blog ul a {
+    
+    color: black;
+}
 
 .explore-more-buttons {
     display: flex;
