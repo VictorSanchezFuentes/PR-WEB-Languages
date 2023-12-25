@@ -126,43 +126,65 @@
                         <div class="comment-form">
                             <h3>Write A Comment</h3>
                             <form action="post">
-                                <span>
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="comment-name">    
-                                </span>
+                  
+                                <div>
+                                    <label for="comment-name">
+                                      <span>Name</span>
+                                      <strong><span class="required">*</span></strong>
+                                    </label>
+                                    <input type="text" id="comment-name" name="name" required />
+                                </div>
+                                  
 
-                                <span>
-                                    <label for="mail">Mail</label>
-                                    <input type="email" name="mail" id="comment-mail">
-                                </span>
+                                <div>
+                                    <label for="comment-mail">
+                                      <span>Mail</span>
+                                      <strong><span class="required">*</span></strong>
+                                    </label>
+                                    <input type="email" id="comment-mail" name="mail" required />
+                                </div>
 
-                                <span>
-                                    <label for="website">Website</label>
-                                    <input type="text" name="website" id="comment-website">
-                                </span>
+                                <div>
+                                    <label for="comment-website">
+                                      <span>Website</span>
+                                    </label>
+                                    <input type="text" id="website" name="comment-website" required />
+                                </div>
 
-
-                                <label for="profile">Choose a car:</label>
-                                <select name="profile" id="comment-profile">
-                                    <optgroup label="Of a company">
-                                    <option value="Human resources director">Human resources director</option>
-                                    <option value="Design Are">Design Area</option>
-                                    <option value="Development area">Development area</option>
-                                    <option value="Of a company - Others" disabled>Others</option>
-                                    <optgroup label="Personal">
-                                    <option value="Designer">Designer</option>
-                                    <option value="Programmer">Programmer</option>
-                                    <option value="Personal - Others">Others</option>
-
-                                </select>
+                                <div>
+                                    <label for="comment-profile">Your profile</label>
+                                    <select name="profile" id="comment-profile">
+                                        <optgroup label="Of a company">
+                                        <option value="Human resources director">Human resources director</option>
+                                        <option value="Design Are">Design Area</option>
+                                        <option value="Development area">Development area</option>
+                                        <option value="Of a company - Others" disabled>Others</option>
+                                        <optgroup label="Personal">
+                                        <option value="Designer">Designer</option>
+                                        <option value="Programmer">Programmer</option>
+                                        <option value="Personal - Others">Others</option>
+                                    </select>
+                                </div>
         
-                                <label for="your-image">Your image</label>
-                                <input type="file" name="your-image">
+                                <div>
+                                    <label for="your-image">
+                                      <span>Your image</span>
+                                      <strong><span class="required">*</span></strong>
+                                    </label>
+                                    <input type="file" id="your-image" name="your-image" required />
+                                </div>
         
-                                <textarea name="your-comment" cols="40" rows="5"></textarea>
-        
-                                <button type="submit">Submit form</button>
-                                <button type="reset">Rset Form</button>    
+                                <div>
+                                    <label for="your-comment">
+                                      <span>Your comment</span>
+                                    </label>
+                                    <textarea name="your-comment" id="your-comment" cols="40" rows="15"></textarea>
+                                </div>
+                                
+                                
+                                    <button type="submit">Submit form</button>
+                                    <button type="reset">Rset Form</button>
+                                 
                             </form>
                             
     

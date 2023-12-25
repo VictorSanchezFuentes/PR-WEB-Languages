@@ -9,3 +9,80 @@
 
     width: 20%;
 }
+
+/* form  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+form span {
+    flex: 1;
+} */
+
+
+label, input {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+label {
+    font-size: small;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+form div:nth-child(1), form div:nth-child(2), form div:nth-child(3) {
+    width: 30%;
+}
+
+form div:nth-child(4), form div:nth-child(5) {
+    width: 48%;
+}
+
+form div:nth-child(6) {
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.required {
+    color: red;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+select {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 13px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+}
