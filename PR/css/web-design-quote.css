@@ -1,0 +1,21 @@
+blockquote {
+    background-color: #ebf7ff;
+    font-size: 1.2em;
+    margin: 50px auto;
+    color: #000000;
+    padding: 30px 0px 30px 30px;
+    border-left: 6px solid #94bdd6;
+    line-height: 1.6;
+    position: relative;
+    width: 80%;
+  }
+  
+  blockquote::before {
+    content: "\201C";
+    color: #94bdd6;
+    font-size: 4em;
+    font-style: italic;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+  }

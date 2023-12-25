@@ -1,3 +1,5 @@
+@import "web-design-quote.css";
+
 .web-design-content {
     
     border-right: 1px solid gray;
@@ -85,4 +87,69 @@ textarea {
 
 form button {
     width: 100%;
+}
+
+
+
+
+/* Comments */
+
+/* .comments {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    row-gap: 5px;
+} */
+
+
+
+.single-comment {
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.single-comment img {
+    border: 1px solid black;
+    padding: 4px 2px;
+}
+
+.comment-user {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.comment-user a {
+    color: gainsboro;
+}
+
+.comment-date {
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+.comment-text {
+    margin: 15px 15px 30px 15px;
+}
+
+
+/* Float right part */
+
+
+.explore-more-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.explore-more-buttons button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 20px 10px 0;
+    padding: 10px 15px;
+    width: fit-content;
 }
