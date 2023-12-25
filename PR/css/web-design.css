@@ -8,6 +8,18 @@
 }
 
 
+
+/* upper part */
+
+figure {
+    margin: 10px;
+}
+
+
+
+
+/* form area */
+
 /* form  {
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +29,6 @@
 form span {
     flex: 1;
 } */
-
 
 label, input {
     display: block;
@@ -83,6 +94,10 @@ textarea {
 
 form button {
     width: 100%;
+}
+
+form div {
+    margin: 10px 0 0 0;
 }
 
 

@@ -53,7 +53,13 @@
 
 }
 
-
+.regular-button {
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    height: 37px;
+}
 
 .float-left {
     float: left;
@@ -102,7 +108,7 @@
     padding: 10px 0;
     margin: 10px;
     border-style: solid;
-    min-width: 175px;
+    width: 100%;
 }
 
 
