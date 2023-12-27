@@ -39,6 +39,11 @@ footer {
 
 .footer-title {
     margin: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+.footer-flex-column p {
+    font-size: small;
 }
 
 button {
