@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&family=Open+Sans&display=swap');
 @import "headers.css";
 @import "footer.css";
 
@@ -17,7 +20,7 @@
     --background-red: #fff6f5;
 
     /* Color fondo texto cabecera: rgb(103, 103, 103) Aplicar la transparencia necesaria */
-    --backgruond-cabecera: rgb(103, 103, 103);
+    --background-cabecera: rgb(103, 103, 103, 0.5);
 
     /* Color hover imágenes: rgb(132, 131, 131) Aplicar la transparencia necesaria */
     --images-hover: rgb(132, 131, 131);
@@ -52,6 +55,8 @@
     --button-google-plus: #DB4A39;
 
 }
+
+
 
 .regular-button {
     background-color: white;
@@ -123,10 +128,16 @@
 }
 
 html{
+    font-family: "Nunito Sans", sans-serif;
     display: grid;
     grid-template-areas: "hd"
     "mn"
     "ft";
+}
+
+
+h1, h2, h3 {
+    font-family: "Yellowtail", sans-serif !important;
 }
 
 

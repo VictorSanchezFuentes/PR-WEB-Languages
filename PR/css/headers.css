@@ -81,17 +81,29 @@ header ul {
 
     /* styling */
     border-radius: 10px;
-    background-color: #333;
+    color: white;
+    background-color: var(--background-cabecera);
+    font-size: x-large;
 
   
     /* dimensions */
-    width: 30%;
+    padding: 25px 0;
+    width: 23%;
+    height: 35%;
+
+    position: relative;
+    bottom: 80px;
+    right: 200px;
 }
 
 .anika-container .anika-text {
-    padding: 15px 0;
+    padding: 0 0 15px 0;
+    line-height: 3rem;
+    margin: 0 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .anika-container div {
-    padding: 5px 0;
+
+    font-size: small;
 }
