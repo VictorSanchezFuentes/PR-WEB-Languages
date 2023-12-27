@@ -108,9 +108,19 @@
     padding: 10px 0;
     margin: 10px;
     border-style: solid;
-    width: 100%;
+    min-width: 100%;
 }
 
+.float-button {
+    color: var(--basic-red);
+    background-color: white;
+    border-color: var(--basic-red);
+    padding: 10px 0;
+    margin: 10px;
+    border-style: solid;
+    float: right;
+    width: 20% !important;
+}
 
 html{
     display: grid;
