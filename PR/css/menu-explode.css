@@ -1,0 +1,171 @@
+header ul {
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  header ul li {
+    float: left;
+  } 
+  
+  header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover {
+    background-color: #111;
+  }
+
+
+  /* mobile */
+
+
+/* a {
+    color: #000;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+header ul a {
+    display: block;
+    outline: 1px solid red;
+    padding: 20px;
+    border-right: 1px solid #aaa;
+}
+
+header ul a {
+    outline: 1px solid red;
+}
+
+.header ul a:hover {
+
+}
+
+.header .logo {
+    float: left;
+    display: block;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+    float: right;
+    border: 1px solid red;
+    padding: 28px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+    background-color: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+
+}
+
+.header .menu-icon .nav-icon::before {
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon::after {
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0; we set it up before to negative 5 and positive 5 
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+@media (min-width: 768px){
+    .header li a {
+        padding: 20px 30px;
+    } 
+
+    .header .menu {
+        clear: none;
+        float: left;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+      
+      header ul li {
+        float: left;
+      } 
+      
+      header ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      header ul li a:hover {
+        background-color: #111;
+      } 
+} */
