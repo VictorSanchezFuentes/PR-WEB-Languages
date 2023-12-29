@@ -11,10 +11,19 @@
 }
 
 .header-top {
-    margin: 0;
-    padding: 0;
-    border: none;
-     flex: 1; /* each header-top occupies one space in the div */
+
+  /* flex to center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  /* styling general */
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1; /* each header-top occupies one space in the div */
 }
 
 
