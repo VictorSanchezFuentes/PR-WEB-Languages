@@ -1,7 +1,8 @@
 footer {
     grid-template-areas: "social newsletter images"
     "footer-info footer-info footer-info footer-info";
-    background-color: blue;
+    background-color: var(--background-footer);
+    color: var(--text-footer);
     margin-top: 50px;
     padding: 15px 0 50px 0;
 }
@@ -11,11 +12,12 @@ footer {
     background-color: gray;
     color: black;
     padding: 5px;
+    min-width: 5%;
+    text-align: center;
 }
 
 
 .footer-flex-row {
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,13 +63,23 @@ hr {
     flex-flow: wrap;
     justify-content: space-between;
     align-content: space-between;
-    row-gap: 10px;
+    row-gap: 1%;
+    column-gap: 1%;
 } 
 
-.day-images img {
-    max-width: 30%;
+.day-images div {
+    width: 30%;
+    max-height: 20%;
+    max-height: fit-content;
+    transition: all 0.3s;
 
 }
+
+.day-images img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 .sign-up input {
     
@@ -76,5 +88,41 @@ hr {
     box-sizing: border-box;
     display: block;
     margin: 10px 0 0 0;
+    background-color: var(--input-footer);
     width: 100%;
+}
+
+
+.fa-dribbble:hover {
+    background-color: #EA4C89;
+    color: white;
+}
+
+.fa-facebook-square:hover {
+    background-color: #3B5998;
+    color: white;
+}
+
+.fa-google-plus-g:hover {
+    background-color: #DB4A39;
+    color: white;
+}
+
+
+.fa-linkedin:hover {
+    background-color: #0E76A8;
+    color: white;
+}
+.fa-twitter:hover {
+    background-color: #00ACEE;
+    color: white;
+}
+
+.fa-vk:hover {
+    background-color: #4E658E;
+    color: white;
+}
+
+.phone { 
+    color: var(--text-footer);
 }

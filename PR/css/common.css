@@ -23,10 +23,11 @@
     --background-cabecera: rgb(103, 103, 103, 0.5);
 
     /* Color hover imágenes: rgb(132, 131, 131) Aplicar la transparencia necesaria */
-    --images-hover: rgb(132, 131, 131);
+    --images-hover: rgb(132, 131, 131,.2);
 
     /* Fondo gris claro (fondos, fondo tabla, color del menú redes sociales, etc): #e4e4e4 */
     --background-grey: #e4e4e4;
+
 
     /* Fondo pie de página: #323639 */
     --background-footer: #323639;
@@ -74,10 +75,8 @@
     float: right;
 }
 
-
 .reverse {
     transform: scale(-1, 1);
-    color: #000080;
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
     -o-transform: scale(-1, 1);
@@ -151,6 +150,11 @@ h1, h2, h3 {
     overflow: auto;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 
 
 .container {
@@ -178,7 +182,31 @@ h1, h2, h3 {
 
 
 
+.exploding-image {
+    transition: all 0.3s;
 
+}
+
+.exploding-image:hover {
+    background-color: white;
+    height: fit-content;
+    transform: scale(1.2);
+}
+
+.exploding-image:hover::before {
+    content: "+";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+
+}
 
 
 
