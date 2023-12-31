@@ -17,7 +17,7 @@ td, th {
 
 
 .light-blue-row {
-    background-color: lightblue;
+    background-color: var(--background-grey);
 }
 
 /* .header-red {
@@ -40,7 +40,7 @@ td, th {
 
 thead tr td, thead tr th {
     border-collapse: collapse;
-    background-color: brown;
+    background-color: var(--basic-red);
     color: white;
     border-style: none;
 }
@@ -50,7 +50,7 @@ td, th {
 }
 
 tr th:first-child { 
-    background-color: red;
+    background-color: var(--tertiary-red);
     border-left: none;
     text-align: left;
 }

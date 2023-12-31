@@ -1,9 +1,14 @@
+#blog {
+    background-color: var(--background-grey);
+    padding: 60px 0;
+}
+
 .more-button {
     width: 10%  !important;
 }
 
 .float-blog {
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 .float-blog div {

@@ -7,6 +7,13 @@
     width: 78%;
 }
 
+figure figcaption {
+    text-align: right; 
+    color: var(--basic-red);
+    font-weight: 600;
+
+}
+
 
 
 /* upper part */
@@ -115,7 +122,7 @@ form div {
 
 
 .single-comment {
-    background-color: grey;
+    background-color: var(--background-grey);
     padding: 10px;
     margin: 5px 10px 5px 0;
 }
@@ -141,6 +148,16 @@ form div {
 
 .comment-text {
     margin: 15px 15px 30px 15px;
+}
+
+.comment-form form div input:focus, .comment-form form div select:focus, .comment-form form div textarea:focus {
+    border: 1px solid black;
+}
+
+
+.comment-form form div input:focus, .comment-form form div select:focus, .comment-form form div textarea:focus {
+    outline: none;
+    border: 1px solid var(--basic-red);
 }
 
 
@@ -175,7 +192,20 @@ form div {
     border: none;
     border-radius: 5px;
     color: white;
+    background-color: var(--button-explore);
     margin: 0 20px 10px 0;
     padding: 10px 15px;
     width: fit-content;
+}
+
+.explore-more-buttons button:hover {
+    background-color: var(--special-red);
+}
+
+.submit:hover {
+    background-color: var(--hover-submit);
+}
+
+.reset:hover {
+    background-color: var(--hover-reset);
 }

@@ -19,8 +19,7 @@ nav {
 
   /* flex to center content */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
 
 
 
@@ -29,42 +28,24 @@ nav {
   padding: 0;
   border: none;
   flex: 1; /* each header-top occupies one space in the div */
+  height: 50px;
 }
 
 
-header ul {
-    list-style-type: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+
+
+
   
-  header ul li {
-    float: left;
-  }
-  
-  header ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  header ul li a:hover {
-    background-color: #111;
-  }
 
 .header-image {
 
     /* flex declaration */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    height: 400px;
+    height: 300px;
+    padding: 30px 0;
 
     overflow: visible;
 
@@ -72,6 +53,7 @@ header ul {
     /* images */
     background-image: url(../images/header.jpg);
     background-size: cover;
+    background-position: 0 0;
 
 }
 
@@ -80,7 +62,12 @@ header ul {
 
   /* images */
   background-image: url(../images/inner_header.jpg);
-
+  background-size: cover;
+  background-position: 35% 35%;
+  height: 150px !important;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
@@ -97,27 +84,57 @@ header ul {
     border-radius: 10px;
     color: white;
     background-color: var(--background-cabecera);
-    font-size: x-large;
+
 
   
     /* dimensions */
-    padding: 25px 0;
-    width: 23%;
-    height: 35%;
+    padding: 15px 0 5px 0;
+    width: 25%;
+    height: 80%;
 
-    position: relative;
-    bottom: 80px;
-    right: 200px;
+    
+}
+
+.anika-container-camera {
+  
+
+    /* flex declaration */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* styling */
+    border-radius: 10px;
+    color: white;
+    background-color: var(--background-cabecera);
+
+
+  
+    /* dimensions */
+    padding: 20px 25px 5px 25px;
+    width: 20%;
+    height: 35%;
 }
 
 .anika-container .anika-text {
     padding: 0 0 15px 0;
     line-height: 3rem;
     margin: 0 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
+    font-style: italic;
 }
-.anika-container div {
+.anika-container-camera .anika-text {
+  padding: 0 0 20px 0;
+  margin: 0 10px;
+  line-height: 2rem;
+  text-align: center;
+  font-style: italic;
+}
 
-    font-size: small;
+.anika-container-camera div {
+  font-size: x-small;
+  margin-bottom: 5px;
 }

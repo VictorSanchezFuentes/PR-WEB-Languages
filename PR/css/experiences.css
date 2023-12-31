@@ -1,8 +1,7 @@
-
-
-#experiences h2 {
-    color: var(--basic-red);
+#experiences {
+    padding-top: 60px;
 }
+
 
 .clearfix::after {
     content: "";

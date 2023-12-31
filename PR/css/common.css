@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans');
 @import url('https://fonts.googleapis.com/css?family=Yellowtail&family=Open+Sans&display=swap');
 @import "headers.css";
+@import "menu-explode.css";
 @import "footer.css";
 
 
@@ -42,10 +43,10 @@
     --button-explore: #474747;
 
     /* Verde hover botón enviar comentario: #189232 */
-    --hover-button-comment: #189232;
+    --hover-submit: #189232;
 
     /* Rojo hover botón reset comentario: #ff0000 */
-    --hover-button-red-reset: #ff0000;
+    --hover-reset: #ff0000;
 
     /* Colores hover botones redes sociales: 
     ●	dribbler: #EA4C89;
@@ -132,12 +133,18 @@ html{
     grid-template-areas: "hd"
     "mn"
     "ft";
+    font-size: 16px;
 }
 
 
-h1, h2, h3 {
+h1, h2 {
     font-family: "Yellowtail", sans-serif !important;
 }
+
+h2 {
+    color: var(--basic-red);
+}
+
 
 
 .clearfix::after {
@@ -160,7 +167,6 @@ html {
 .container {
     width: 1170px;
     margin:0 auto;
-    padding-top: 40px;
 }
 
 .weird {

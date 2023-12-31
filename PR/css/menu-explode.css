@@ -1,26 +1,44 @@
 header ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
+    justify-content: start;
+    align-content: start;
+
+
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 2px 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
+    column-gap: 10px;
+
+    height: 80%;
+
   }
   
   header ul li {
     float: left;
+    border: 1px solid var(--basic-red);
+    flex: 1;
+
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   } 
   
   header ul li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: var(--basic-red);
     text-decoration: none;
+    height: fit-content;
   }
   
   header ul li a:hover {
-    background-color: #111;
+    background-color: var(--basic-red);
+    color: white;
   }
 
 

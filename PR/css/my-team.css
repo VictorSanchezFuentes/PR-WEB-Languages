@@ -1,4 +1,7 @@
-
+#my-help-team {
+    background-color: var(--background-grey);
+    padding: 30px 0;
+}
 
 .team-flex-row {
     display: flex;

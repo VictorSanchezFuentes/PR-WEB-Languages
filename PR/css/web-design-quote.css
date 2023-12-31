@@ -1,18 +1,23 @@
 blockquote {
-    background-color: #ebf7ff;
+    background-color: #fff6f5;
     font-size: 1.2em;
     margin: 50px auto;
-    color: #000000;
-    padding: 30px 0px 30px 30px;
-    border-left: 6px solid #94bdd6;
+    color: var(--special-red);
+    padding: 30px 20px 30px 0px;
+    border-left: 6px solid #C43721;
     line-height: 1.6;
     position: relative;
-    width: 80%;
+    max-width: 80%;
+  }
+
+  blockquote div {
+    padding-left: 100px;
+  
   }
   
   blockquote::before {
     content: "\201C";
-    color: #94bdd6;
+    color: #C43721;
     font-size: 4em;
     font-style: italic;
     position: absolute;
