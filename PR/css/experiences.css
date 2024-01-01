@@ -14,7 +14,7 @@
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-    margin: 30px 0;
+    column-gap: 30px;
 
 }
 
@@ -37,6 +37,7 @@
 
 .experiences-flex-column figure img {
     border-radius: 5px;
+    padding: 0;
     margin: 5px 0;
     width: 100%;
 }

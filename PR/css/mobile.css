@@ -1,0 +1,19 @@
+@media (max-width: 768px){
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .design-light-color {
+        font-size: 20px;
+    }
+
+
+}
