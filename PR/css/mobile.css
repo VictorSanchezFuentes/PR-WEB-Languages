@@ -1,4 +1,5 @@
 @media (max-width: 768px){
+
     h1 {
         font-size: 50px;
     }
@@ -15,5 +16,33 @@
         font-size: 20px;
     }
 
+    .team-flex-row {
+        flex-direction: column;
+    }
 
+    .experiences-flex-row {
+        flex-direction: column;
+    }
+
+    .float-button {
+        display: block;
+        width: 100%;
+        background-color: black !important;
+    }
+
+    .clear-fix h2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .red-dashed {
+        color: red;
+    }
+    
+    img[src="images/profile.jpg"]{ 
+        float: none;
+        display: block;
+        border-radius: 100%;
+    }
 }
