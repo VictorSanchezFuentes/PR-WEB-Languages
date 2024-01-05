@@ -4,6 +4,14 @@
         font-size: 50px;
     }
 
+    .container {
+        width: 90vw;
+    }
+
+    html {
+        width: 100vw;
+    }
+
     h2 {
         font-size: 24px;
     }
@@ -24,11 +32,25 @@
         flex-direction: column;
     }
 
-    .float-button {
-        display: block;
+    .experiences-flex-column {
         width: 100%;
-        background-color: black !important;
     }
+    
+    .float-right, .float-left {
+        float: none;
+    }
+
+    .float-button {
+        box-sizing: border-box;
+        float: none;
+        margin: 0;
+        min-width: 100%;
+    }
+
+
+    
+
+
 
     .clear-fix h2 {
         display: block;
@@ -41,8 +63,15 @@
     }
     
     img[src="images/profile.jpg"]{ 
-        float: none;
         display: block;
         border-radius: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
+
+
+    .team-flex-column img {
+        min-width: 100%;
+    }
+
 }
