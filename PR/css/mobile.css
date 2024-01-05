@@ -36,9 +36,7 @@
         width: 100%;
     }
     
-    .float-right, .float-left {
-        float: none;
-    }
+    
 
     .float-button {
         box-sizing: border-box;
@@ -73,5 +71,12 @@
     .team-flex-column img {
         min-width: 100%;
     }
+
+    hr {
+        width: 100%;
+        background-color: white;
+        border: none;
+    }
+
 
 }
