@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    
+    .footer-flex-row {
+        flex-direction: column;
+    }
+
+    .footer:nth-child(3) {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+
+}

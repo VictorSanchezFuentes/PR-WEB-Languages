@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+
+    .clearfix figure {
+        width: 100%;
+    }
+
+    
+    .clearfix figure img {
+        width: 100%;
+    }
+
+    .clearfix .float-left, .clearfix .float-right {
+        float: none;
+    }
+
+}
