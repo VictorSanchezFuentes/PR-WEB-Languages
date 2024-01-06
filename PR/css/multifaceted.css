@@ -17,6 +17,7 @@ table {
 td, th {
     border: 1px solid black;
     border-collapse: collapse;
+    width: 20%;
 }
 
 
@@ -57,6 +58,11 @@ tr th:first-child {
     background-color: var(--tertiary-red);
     border-left: none;
     text-align: left;
+}
+
+.responsive-th {
+    display: none;
+
 }
 
 
