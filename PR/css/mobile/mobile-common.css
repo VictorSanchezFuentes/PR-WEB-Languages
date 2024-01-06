@@ -1,0 +1,59 @@
+@import "mobile-footer.css";
+@import "menu-explode.css";
+@import "mobile-header.css";
+
+
+
+@media (max-width: 768px) {
+
+    h1 {
+        line-height: 0.8em !important;
+        font-size: 50px !important;
+    }
+
+    .anika-container-camera {
+        width: 80%;
+        height: 80%;
+    }
+    
+
+    .anika-container-camera div {
+        font-size: medium;
+        margin-top: 10%;
+    }
+    body {
+        width: 90%;
+        padding: 0;
+        display: grid;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+
+    main {
+        grid: "main";
+        width: 90%;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+}

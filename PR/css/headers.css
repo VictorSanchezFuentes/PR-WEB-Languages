@@ -1,9 +1,9 @@
-.header {
-  display: flex;
-  flex-direction: column;
-    
-}
 
+
+header {
+  grid: "header";
+  width: 100%;
+}
 
 .flex-header {
   display: flex;
@@ -11,6 +11,11 @@
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
+.exploding-menu{
+  display: none;
+}
+
 
 nav {
   width: 100%;

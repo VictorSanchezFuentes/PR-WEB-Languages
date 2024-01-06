@@ -53,7 +53,7 @@ header ul li:hover a {
     color: white;
 }
 
-.header-top nav input, .header-top nav label {
+.exploding-menu nav input, .exploding-menu nav label {
     display: none;
 }
 
@@ -69,17 +69,29 @@ header ul li:hover a {
 @media (max-width: 768px){
 
 
-    .header-top {
+
+    .exploding-menu {
+        display: flex;
+        flex-direction: column;
+        
         width: 100%;
         z-index: 3;
     }
 
     header ul {
+        flex-direction: column;
         margin: 0;
         padding: 0;
         list-style: none;
         overflow: hidden;
         color: black !important;
+
+        position: absolute;
+        top: 12%;
+        right: 40%;
+        width: 40%;
+
+
     }
 
     header ul a {
@@ -87,32 +99,27 @@ header ul li:hover a {
     }
 
 
-    .header-top ul a:hover {
+    .exploding-menu ul a:hover {
 
     }
 
-    .header-top .logo {
-        float: left;
-        display: block;
-        font-size: 2em;
-        padding: 10px 20px;
-    }
-
-    .header-top .menu {
+    .exploding-menu .menu {
         clear: both;
         max-height: 0;
         transition: max-height .2s ease-out;
     }
 
-    .header-top .menu-icon {
+    .exploding-menu .menu-icon {
         float: right;
         padding: 28px 20px;
         position: relative;
         cursor: pointer;
     }
 
-    .header-top .menu-icon .nav-icon {
+    .exploding-menu .menu-icon .nav-icon {
+        float: right;
         display: block;
+        background-color: black;
         height: 2px;
         width: 18px;
         position: relative;
@@ -120,7 +127,7 @@ header ul li:hover a {
 
     }
 
-    .header-top .menu-icon .nav-icon::before {
+    .exploding-menu .menu-icon .nav-icon::before {
         background-color: #333;
         content: "";
         display: block;
@@ -131,7 +138,7 @@ header ul li:hover a {
         transition: all .2s ease-out;
     }
 
-    .header-top .menu-icon .nav-icon::after {
+    .exploding-menu .menu-icon .nav-icon::after {
         background-color: #333;
         content: "";
         display: block;
@@ -142,24 +149,24 @@ header ul li:hover a {
         transition: all .2s ease-out;
     }
 
-    .header-top .menu-btn {
+    .exploding-menu .menu-btn {
         display: none;
     }
 
-    .header-top .menu-btn:checked ~ .menu {
+    .exploding-menu .menu-btn:checked ~ .menu {
         max-height: 240px;
     }
 
-    .header-top .menu-btn:checked ~ .menu-icon .nav-icon {
+    .exploding-menu .menu-btn:checked ~ .menu-icon .nav-icon {
         background: transparent;
     }
 
-    .header-top .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    .exploding-menu .menu-btn:checked ~ .menu-icon .nav-icon:before {
         transform: rotate(-45deg);
         top: 0;/*  we set it up before to negative 5 and positive 5  */
     }
 
-    .header-top .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    .exploding-menu .menu-btn:checked ~ .menu-icon .nav-icon:after {
         transform: rotate(45deg);
         top: 0;
     } 
