@@ -4,11 +4,18 @@
         flex-direction: column;
     }
 
-    .footer:nth-child(3) {
+    .footer-flex-row:nth-last-child(1) {
         display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+        grid-template-areas: "footerarea footerarea"
+        "footerarea footerarea";
+        margin-bottom: 3%;
+        grid-gap: 1rem;
     }
+
+    .footer-flex-row:nth-last-child(1) div {
+        grid-area: "footerarea";
+    }
+
 
 
 }
