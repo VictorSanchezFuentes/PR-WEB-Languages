@@ -21,7 +21,7 @@
 
 }
 
-hr {
+#blog hr {
     height:1px;
     background: red;
 }

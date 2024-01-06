@@ -1,6 +1,12 @@
 @media (max-width: 768px){
+
     .responsive-table {
         width: 100%;
+        border: none;
+    }
+
+    .design-light-color {
+        font-size: 20px;
     }
 
     .responsive-table tbody tr {
@@ -25,9 +31,8 @@
         border-right: 1px solid black;
         text-align: center;
         width: 100%;
+        box-sizing: border-box;
     }
-
-    
 
     .responsive-th {
         display: block;
@@ -41,6 +46,11 @@
     .responsive-table tbody tr td {
         border-top: none;
         background-color: white;
+    }
+
+    
+    .web-design-content h4 {
+        font-size: 20px !important;
     }
 
 }

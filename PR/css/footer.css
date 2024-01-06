@@ -50,8 +50,11 @@ button {
     width: 100%;
 }
 
-hr {
-    width: 1170px;
+footer hr {
+    width: 1170px !important;
+    background-color: white;
+    height: 1px;
+    border: none;
 }
 
 
