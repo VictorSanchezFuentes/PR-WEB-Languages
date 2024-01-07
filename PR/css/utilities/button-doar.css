@@ -50,7 +50,7 @@
 
 .contact-button:after {
     color: white;
-    content: "\f003";
+    content: "\f1d9";
 }
 
 .blog-button {
@@ -74,7 +74,7 @@
 
 
 .news-button::after {
-    content: "\f1d9";
+    content: "\f02f";
     color: white;
 }
   
