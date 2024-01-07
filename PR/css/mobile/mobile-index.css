@@ -65,5 +65,14 @@
         min-width: 100%;
     }
 
+    /* .float-blog img {
+        display: inline-block;
+        float: none;
+    } */
+
+    .float-blog div {
+        display: flex;
+        flex-direction: column;
+    }
 
 }

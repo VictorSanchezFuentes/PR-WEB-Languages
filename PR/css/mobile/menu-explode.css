@@ -14,6 +14,7 @@ header ul {
     column-gap: 10px;
 
     height: 80%;
+    
 
   }
   
@@ -23,6 +24,7 @@ header ul {
     flex: 1;
 
     border-radius: 3px;
+    background-color: white;
   } 
   
   header ul li a {
@@ -39,6 +41,8 @@ header ul {
     height: 100%;
 }
 
+
+
 header ul li a span {
     height: fit-content;
 }
@@ -47,6 +51,10 @@ header ul li a span {
 header ul li:hover {
     background-color: var(--basic-red);
     color: white;
+}
+
+header ul li a:focus {
+    background-color: var(--special-red);
 }
 
 header ul li:hover a {
@@ -87,20 +95,17 @@ header ul li:hover a {
         color: black !important;
 
         position: absolute;
-        top: 12%;
-        right: 40%;
+        top: 4em;
+        right: 32%;
         width: 40%;
+
+        border-radius: 3px;
 
 
     }
 
     header ul a {
         display: block;
-    }
-
-
-    .exploding-menu ul a:hover {
-
     }
 
     .exploding-menu .menu {
