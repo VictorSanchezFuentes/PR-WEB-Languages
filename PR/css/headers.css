@@ -1,7 +1,6 @@
 
-
 header {
-  grid: "header";
+  grid-area: header;
   width: 100%;
 }
 

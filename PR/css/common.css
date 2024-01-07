@@ -95,6 +95,18 @@
 
 }
 
+
+body {
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+}
+
+main {
+    grid-area: main;
+}
+
 .flex-center-content {
     display: flex;
     flex-direction: row;
@@ -147,9 +159,7 @@ button {
 html{
     font-family: "Nunito Sans", sans-serif;
     display: grid;
-    grid-template-areas: "hd"
-    "mn"
-    "ft";
+    
     font-size: 16px;
 }
 

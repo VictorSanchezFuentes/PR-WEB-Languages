@@ -2,7 +2,7 @@
     
     footer {
         width: 100%;
-        grid: "footer";
+        grid-area: footer;
     }
 
     .footer-flex-row {
