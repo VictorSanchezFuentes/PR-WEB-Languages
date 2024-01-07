@@ -12,7 +12,7 @@
     }
 
     .header-image {
-        width: 90%;
+        width: 100%;
     }
 
     .opening-menu {
@@ -20,7 +20,7 @@
     }
     
     .flex-header {
-        width: 90% !important;
+        width: 100% !important;
         margin: 0;
         padding-left: 0;
     }

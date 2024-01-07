@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     
     footer {
-        width: 90%;
+        width: 100%;
         grid: "footer";
     }
 
@@ -15,6 +15,7 @@
         "footerarea footerarea";
         margin-bottom: 3%;
         grid-gap: 1rem;
+        padding: 2.5%;
     }
 
 
@@ -25,6 +26,7 @@
     .day-images {
         width: 100%;
         box-sizing: border-box;
+        padding-right: 2.5%;
     }
 
 }

@@ -139,6 +139,11 @@ button {
     width: 20% !important;
 }
 
+.float-button:hover {
+    color: white;
+    background-color: var(--basic-red);
+}
+
 html{
     font-family: "Nunito Sans", sans-serif;
     display: grid;
