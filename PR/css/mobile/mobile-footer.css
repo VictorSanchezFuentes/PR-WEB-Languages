@@ -17,13 +17,14 @@
         grid-gap: 1rem;
     }
 
-    .footer-flex-row:nth-last-child(1) div {
-        grid-area: "footerarea";
-    }
-
 
     footer hr {
         width: 100% !important;
+    }
+
+    .day-images {
+        width: 100%;
+        box-sizing: border-box;
     }
 
 }
