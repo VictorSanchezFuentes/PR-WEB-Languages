@@ -38,7 +38,7 @@
     }
 
     main {
-        grid: "main";
+        grid-area: main;
         width: 100%;
         padding: 0;
     }

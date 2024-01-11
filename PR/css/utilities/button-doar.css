@@ -43,6 +43,40 @@
 
 }
 
+
+.contact-button {
+    background-color: black;
+}
+
+.contact-button:after {
+    color: white;
+    content: "\f1d9";
+}
+
+.blog-button {
+    color: black;
+    background-color: yellow;
+}
+
+.blog-button:hover {
+    color: black;
+}
+
+.blog-button:after {
+    color: black;
+    content: "\f030";
+}
+
+
+.news-button {
+    background-color: blue;
+}
+
+
+.news-button::after {
+    content: "\f02f";
+    color: white;
+}
   
 .btn--doar:hover:after {
     margin: -5px 15px;
